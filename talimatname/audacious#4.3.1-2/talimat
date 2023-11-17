@@ -7,7 +7,7 @@ url     = https://audacious-media-player.org
 [gerek]
 derleme = meson glib libsm dbus-glib qt5-base desktop-file-utils alsa-lib pulseaudio lame xiph mpg123 faac ffmpeg media-extra libnotify libcdio-paranoia fluidsynth libbs2b  libsamplerate mesa
 ;libmms
-calisma = 
+calisma = qt5-tools audacious-plugins
 
 [kaynak]
 bz2     = https://distfiles.${isim}-media-player.org
