@@ -1,0 +1,21 @@
+[paket]
+tanim   = Gtk tabanlı masaüstü ortamları için Materyal tasarım tema.
+paketci = yasarciv
+grup    = tasarım
+url     = https://github.com/vinceliuice/Orchis-theme
+arsiv	= Orchis-theme-2022-10-19
+
+[gerek]
+derleme = 
+calisma = 
+
+[kaynak]
+1	= https://github.com/vinceliuice/Orchis-theme/archive/refs/tags/2022-10-19.tar.gz::$isim-$surum.tar.gz
+
+[sha256]
+
+[derle]
+betik	= echo "Derleme olmayacak"
+
+[pakur]
+betik	= ./install.sh -d $PKG/usr/share/themes

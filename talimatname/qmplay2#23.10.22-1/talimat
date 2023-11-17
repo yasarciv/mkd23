@@ -1,0 +1,23 @@
+[paket]
+tanim   = Çoğu formatı ve codec bileşenini oynatabilen video ve ses oynatıcısı
+paketci = yasarciv
+grup    = kütüphane
+url     = http://zaps166.sourceforge.net/?app=QMPlay2
+arsiv	= QMPlay2-src-$surum
+
+[gerek]
+derleme = cmake qt5-base qt5-extra mesa alsa-lib ffmpeg libass libcdio-paranoia gstreamer-extra libxv pulseaudio
+;libsidplayfp
+calisma = qt5-extra
+
+[kaynak]
+1       = https://github.com/zaps166/QMPlay2/releases/download/${surum}/QMPlay2-src-${surum}.tar.xz
+
+[sha256]
+1       = d81c5a81a8839ac441eb7466eb16931aab92f71fd784a3b3e1d709272c4237cf
+
+[derle]
+tip     = cmake
+
+[pakur]
+tip     = cmake

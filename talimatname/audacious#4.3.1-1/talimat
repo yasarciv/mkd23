@@ -1,0 +1,25 @@
+[paket]
+tanim   = Ses kalitesine odaklanan hafif, gelişmiş ses çalar
+paketci = yasarciv
+grup    = medya
+url     = https://audacious-media-player.org
+
+[gerek]
+derleme = meson glib libsm dbus-glib qt5-base desktop-file-utils alsa-lib pulseaudio lame xiph mpg123 faac ffmpeg media-extra libnotify libcdio-paranoia fluidsynth libbs2b  libsamplerate mesa
+;libmms
+calisma = 
+
+[kaynak]
+bz2     = https://distfiles.${isim}-media-player.org
+
+
+[sha256]
+1       = 85e9e26841505b51e342ee72a2d05f19bef894f567a029ebb3f3e0c1adb42042
+
+
+[derle]
+ekconf	= -Dgtk=false
+tip     = meson
+
+[pakur]
+tip     = meson

@@ -1,0 +1,21 @@
+[paket]
+tanim   = Son derece yapılandırılabilir çok bölmeli bir dosya yöneticisi.
+paketci = yasarciv
+grup    = sistem
+url     = http://4pane.co.uk
+
+[gerek]
+derleme = wxgtk3
+calisma =
+
+[kaynak]
+gz       = $SOURCEFORGE_SITE/fourpane
+
+[sha256]
+1       = 0a5f9e08cd284a1edf0f93dc49a8a7faab86f9795c06116e167043b80ee0bafb
+
+[derle]
+tip     = gnu
+
+[pakur]
+tip     = gnu

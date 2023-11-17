@@ -1,0 +1,21 @@
+[paket]
+tanim   = Leafpad'e dayalı Xfce için basit metin düzenleyici
+paketci = yasarciv
+grup    = sistem
+url     = https://xfce.org/
+
+[gerek]
+derleme = glib intltool gtksourceview4 desktop-file-utils
+calisma =
+
+[kaynak]
+1       = https://archive.xfce.org/src/apps/${isim}/${surum%.*}/${isim}-${surum}.tar.bz2
+
+[sha256]
+1       = 560c5436c7bc7de33fbf3e9f6cc545280772ad898dfb73257d86533880ffff36
+
+[derle]
+tip     = gnu
+
+[pakur]
+tip     = gnu

@@ -1,0 +1,25 @@
+[paket]
+tanim   = Audacious için eklentiler
+paketci = yasarciv
+grup    = medya
+url     = https://audacious-media-player.org
+
+[gerek]
+derleme = meson audacious
+;libmms
+calisma = 
+
+[kaynak]
+bz2     = https://distfiles.audacious-media-player.org
+
+
+[sha256]
+1       = 2dea26e3af583a2d684df240b27b2b2932bcd653df4db500a85f4fe5d5fdc8a6
+
+[derle]
+ekconf	= -Dgtk=false
+tip     = meson
+
+[pakur]
+tip     = meson
+
